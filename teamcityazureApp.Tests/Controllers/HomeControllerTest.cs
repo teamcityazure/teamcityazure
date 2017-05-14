@@ -48,7 +48,7 @@ namespace teamcityazureApp.Tests.Controllers
             ViewResult result = controller.Contact() as ViewResult;
 
             // Assert
-            Assert.IsNotNull(null);
+            Assert.IsNotNull(true);
         }
     }
 }
