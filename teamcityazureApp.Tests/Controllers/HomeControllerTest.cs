@@ -43,7 +43,7 @@ namespace teamcityazureApp.Tests.Controllers
         {
             // Arrange
             HomeController controller = new HomeController();
-            var test = 3;
+            var test = 5;
             // Act
             ViewResult result = controller.Contact() as ViewResult;
             // Assert
